@@ -1,0 +1,20 @@
+
+Hello,
+
+I am using tpmcalculator installed in the cluster env with a .gtf annotation file. After running this -k default, I get the error message "Key gene_id for gene name was not found on GTF line. Error processing GTF line at Chromosome level:"
+
+The parameters are as following:
+
+tpmcalculator
+-g ../Genomes/Gfus_x10_v51.gtf
+-d inputdata_dir
+-b Aligned.sortedByCoord.out.bam
+-k "gene_id"
+
+The first couple line of my .gtf annotation file are:
+JACGUE010004940	Gfus_x10_v4.gp	exon	23437	25151	.	-	.	transcript_id GFUI053061-RA; gene_id GFUI053061; gene_name GFUI053061
+
+I have used TPMcalculator several times recently upto two days ago on a different data. I am not sure what is happening here
+I will be grateful if someone can help with insight here.
+
+Thank you in advance.
